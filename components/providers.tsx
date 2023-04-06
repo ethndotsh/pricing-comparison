@@ -32,32 +32,12 @@ const providers = [
       "AWS Fargate is meant to be run on-request. This is pricing for a long-running container. (730 hours/1 month)",
   },
   {
-    name: "AWS EC2 On-Demand (A1)",
-    url: "https://aws.amazon.com/ec2/pricing/on-demand/",
-    cpu: 9.3,
-    memory: 9.3,
-    storage: 0.08,
-    notes:
-      "CPU is only available in certain configurations. Please check pricing for more details.",
-  },
-  {
-    name: "AWS EC2 On-Demand (T4G)",
-    url: "https://aws.amazon.com/ec2/pricing/on-demand/",
-    memory: 1.53,
-    cpu: 1.53,
-    storage: 0.08,
-    notes:
-      "CPU is only available in certain configurations. Please check pricing for more details.",
-  },
-  {
-    name: "AWS EC2 On-Demand (T3)",
-    url: "https://aws.amazon.com/ec2/pricing/on-demand/",
-    cpu: 3.8,
-    memory: 3.8,
-    storage: 0.08,
-    notes:
-      "CPU is only available in certain configurations. Please check pricing for more details.",
-  },
+    name: "Heroku"
+    url: "https://www.heroku.com/pricing"
+    cpu: 12.5
+    memory: 12.5
+    notes: "Only available in very certain tiers. We recommend Hop over Heroku"
+  }
 ];
 
 export const Providers = ({
