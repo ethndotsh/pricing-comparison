@@ -32,10 +32,10 @@ const providers = [
       "AWS Fargate is meant to be run on-request. This is pricing for a long-running container. (730 hours/1 month)",
   },
   {
-    name: "Heroku"
-    url: "https://www.heroku.com/pricing"
-    cpu: 12.5
-    memory: 12.5
+    name: "Heroku",
+    url: "https://www.heroku.com/pricing",
+    cpu: 12.5,
+    memory: 12.5,
     notes: "Only available in very certain tiers. We recommend Hop over Heroku"
   }
 ];
