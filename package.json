@@ -1,0 +1,33 @@
+{
+  "name": "pricing-comparison",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@formkit/auto-animate": "1.0.0-beta.6",
+    "@radix-ui/react-slider": "^1.1.1",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.33",
+    "@types/react-dom": "18.0.11",
+    "autoprefixer": "10.4.14",
+    "class-variance-authority": "^0.5.1",
+    "clsx": "^1.2.1",
+    "eslint": "8.37.0",
+    "eslint-config-next": "13.2.4",
+    "lucide-react": "^0.130.1",
+    "next": "13.2.4",
+    "next-themes": "^0.2.1",
+    "postcss": "8.4.21",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwind-merge": "^1.12.0",
+    "tailwindcss": "3.3.1",
+    "tailwindcss-animate": "^1.0.5",
+    "typescript": "5.0.3"
+  }
+}
