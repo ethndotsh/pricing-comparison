@@ -13,12 +13,14 @@ export default function Home() {
           <h1 className="text-4xl font-bold mb-2">
             Hosting pricing comparison
           </h1>
-          <p>
-            Built by{" "}
-            <a href="https://cursecode.me" className="font-medium">
-              curse
-            </a>
-          </p>
+          <p>Pricing is per month</p>
+
+          <a
+            href="https://github.com/cursecodes/pricing-comparison"
+            className="font-medium"
+          >
+            GitHub
+          </a>
         </div>
       </div>
       <div className="flex justify-center">

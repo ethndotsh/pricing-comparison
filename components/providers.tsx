@@ -36,8 +36,8 @@ const providers = [
     url: "https://www.heroku.com/pricing",
     cpu: 12.5,
     memory: 12.5,
-    notes: "Only available in very certain tiers. We recommend Hop over Heroku"
-  }
+    notes: "Only available in very certain tiers. We recommend Hop over Heroku",
+  },
 ];
 
 export const Providers = ({
@@ -76,7 +76,7 @@ export const Providers = ({
       {sortedProviders.map((provider) => (
         <div
           key={provider.name}
-          className="p-4 border shadow-md rounded-md mb-4 max-w-2xl"
+          className="p-4 border border-neutral-600 shadow-md rounded-md mb-4 max-w-2xl"
         >
           <h2 className="text-lg font-semibold mb-2">{provider.name}</h2>
           <p>CPU: ${(provider.cpu * cpus).toFixed(2)}</p>
@@ -87,7 +87,7 @@ export const Providers = ({
               ? `$${(provider.storage * storage).toFixed(2)}`
               : "Storage not offered"}
           </p>
-          <div className="border-b border-white my-2" />
+          <div className="border-b border-neutral-600 my-2" />
           <p>
             Additional Notes:
             {provider.notes ? ` ${provider.notes}` : " None"}
